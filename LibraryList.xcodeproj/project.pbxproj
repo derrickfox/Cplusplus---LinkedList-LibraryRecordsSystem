@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44260D101A03E7FF0069DA34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44260D0F1A03E7FF0069DA34 /* main.cpp */; };
+		44260D1B1A03E87E0069DA34 /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44260D161A03E87E0069DA34 /* Book.cpp */; };
+		44260D1C1A03E87E0069DA34 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44260D181A03E87E0069DA34 /* List.cpp */; };
+		44260D1D1A03E87E0069DA34 /* ListDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44260D1A1A03E87E0069DA34 /* ListDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		44260D0C1A03E7FF0069DA34 /* LibraryList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibraryList; sourceTree = BUILT_PRODUCTS_DIR; };
-		44260D0F1A03E7FF0069DA34 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		44260D161A03E87E0069DA34 /* Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
+		44260D171A03E87E0069DA34 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		44260D181A03E87E0069DA34 /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		44260D191A03E87E0069DA34 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		44260D1A1A03E87E0069DA34 /* ListDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListDriver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		44260D0E1A03E7FF0069DA34 /* LibraryList */ = {
 			isa = PBXGroup;
 			children = (
-				44260D0F1A03E7FF0069DA34 /* main.cpp */,
+				44260D161A03E87E0069DA34 /* Book.cpp */,
+				44260D171A03E87E0069DA34 /* Book.h */,
+				44260D181A03E87E0069DA34 /* List.cpp */,
+				44260D191A03E87E0069DA34 /* List.h */,
+				44260D1A1A03E87E0069DA34 /* ListDriver.cpp */,
 			);
 			path = LibraryList;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44260D101A03E7FF0069DA34 /* main.cpp in Sources */,
+				44260D1C1A03E87E0069DA34 /* List.cpp in Sources */,
+				44260D1B1A03E87E0069DA34 /* Book.cpp in Sources */,
+				44260D1D1A03E87E0069DA34 /* ListDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
